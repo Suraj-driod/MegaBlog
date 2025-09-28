@@ -8,6 +8,10 @@ import Input from "./Input";
 import Select from './Select'
 import PostCard from "./PostCard";
 import Loginhook from "./Loginhook";
+import Protected from "./authLayout";
+import RTE from "./RTE";
+import Signuphook from './Signuphook'
+
 export {
     Header,
     Footer,
@@ -19,5 +23,8 @@ export {
     Select,
     PostCard,
     Loginhook,
+    Protected,
+    RTE,
+    Signuphook,
 
 }
